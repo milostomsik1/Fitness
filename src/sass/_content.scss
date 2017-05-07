@@ -1,3 +1,72 @@
-.features {
-	color: $white;
+.green-content {
+	font-family: "Open Sans";
+	p, a {
+		font-size: 14px;
+	}
+	.features {
+		color: $white;
+		padding-top: 44px;
+		padding-bottom: 120px;
+		.features-item {
+			position: relative;
+			padding-top: 120px;
+			h3 {
+				position: relative;
+				margin-bottom: 27px;
+				img {
+					position: absolute;
+					bottom: 42px;
+					left: 0;
+					// height: 40px; sve iste velicine
+				}
+			}
+			p {
+				margin-bottom: 40px;
+			}
+			a {
+				position: absolute;
+				bottom: 0;
+			}
+		}
+	}
+	.grid-1-green, .grid-2-green {
+		height: 394px;
+		h3 {
+			margin-top: 33px;
+			font-size: 35px;
+			color: $green;
+			font-weight: 200;
+
+			.small-red-text {
+				color: $red;
+				font-size: 14px;
+				font-weight: 900;
+			}
+		}
+		img {
+			margin: 25px 0;
+		}
+		p {
+			line-height: 2;
+			color: $body-text;
+			margin: 0;
+			font-weight: 700;
+		}
+		a {
+			color: $green;
+			text-decoration: underline;
+			font-weight: 700;
+		}
+		.grid-1-green-img {
+			background: url("../img/grid-1-green.png") no-repeat;
+			background-size: cover;
+			background-position: left;
+		}
+		.grid-2-green-img {
+			background: url("../img/grid-2-green.png") no-repeat;
+			background-size: cover;
+			background-position: right;
+		}
+
+	}
 }
