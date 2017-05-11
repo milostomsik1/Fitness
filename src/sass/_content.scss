@@ -5,15 +5,27 @@ section {
 		}
 	}
 	.grid-1-red, .grid-2-red {
-		.col-md-4 .row .col-12:nth-child(1), .col-md-8 .row .col-12:nth-child(1) {
+		.col-md-4.grid-1-red-img, .col-md-8.grid-2-red-img, .col-md-8.grid-3-red-img, .col-md-4.grid-4-red-img {
 			min-height: 330px;
-			background-color: purple;
 		}
-		.col-md-4 .row .col-12:nth-child(2), .col-md-8 .row .col-12:nth-child(2) {
+		.col-md-4.bg-white, .col-md-8.bg-green,.col-md-8.bg-white, .col-md-4.bg-green {
 			min-height: 310px;
-			background-color: yellow;
 		}
+
 	}
+}
+
+.summer-of-fun {
+	h3 {
+		font-size: 40px;
+	}
+	p {
+		font-size: 13px !important;
+	}
+}
+
+.font-17px {
+	font-size: 17px !important;
 }
 
 .green-content, .red-content {
@@ -34,9 +46,9 @@ section {
 				margin-bottom: 27px;
 				img {
 					position: absolute;
-					bottom: 42px;
+					top: -45px;
 					left: 0;
-					// height: 40px; sve iste velicine
+					height: 40px;
 				}
 			}
 			p {
@@ -59,7 +71,6 @@ section {
 		.grid-text-default {
 			padding: 40px;
 			h3 {
-				// margin-top: 33px;
 				font-size: 35px;
 				color: $green;
 				font-weight: 200;
@@ -84,7 +95,6 @@ section {
 				text-decoration: underline;
 				font-weight: 700;
 				display: block;
-				// margin-bottom: 35px;
 			}
 		}
 

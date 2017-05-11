@@ -14,6 +14,10 @@
 	background-color: $white !important;
 }
 
-a, h1, h2, h3, h4, h5, h6 {
+.no-wrap {
 	white-space: nowrap;
+}
+
+.bonus-padding {
+	padding: 60px !important;
 }
