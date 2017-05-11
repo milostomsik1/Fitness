@@ -21,3 +21,8 @@
 .bonus-padding {
 	padding: 60px !important;
 }
+
+::selection {
+	color: $white;
+	background-color: $green;
+}

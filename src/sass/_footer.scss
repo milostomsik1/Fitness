@@ -1,4 +1,17 @@
 footer {
+	font-family: "Open Sans";
+	background-color: $dark-gray-blue;
+	h4 {
+		margin-top: 65px;
+		margin-bottom: 28px;
+		font-size: 15px;
+	}
+	p {
+		color: $steel-blue;
+		font-size: 14px;
+
+	}
+
 	.footer-img {
 		height: 802px;
 		background-color: $red;
@@ -6,5 +19,76 @@ footer {
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
+		h2 {
+			font-size: 45px;
+			margin-bottom: 30px;
+			margin-top: 240px;
+		}
+		h4 {
+			font-size: 16px;
+			max-width: 485px;
+			display: inline-block;
+			margin-top: 0;
+		}
 	}
+
+	.social-icons {
+		margin-left: -5px;
+		a {
+			display: inline-block;
+			padding: 5px;
+		}
+	}
+
+	.newsletter {
+		padding-top: 50px;
+		padding-bottom: 65px;
+		input {
+			height: 50px;
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+		button {
+			height: 50px;
+			font-size: 15px;
+			margin-bottom: 10px;
+			img {
+				display: inline-block;
+				padding-bottom: 3px;
+				padding-left: 2px;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.newsletter {
+		input {
+			margin-right: 5px !important;
+			&:nth-child(1) {
+				width: 200px;
+			}
+			&:nth-child(2) {
+				width: 340px;
+			}
+		}
+		button {
+			width: 170px;
+		}
+	}
+ }
+
+@media (min-width: 576px) and (max-width: 767px) {
+	.newsletter.row .col-12 {
+		input, button {
+			width: 540px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
+.bonus-margin {
+	margin-top: 50px;
+	margin-bottom: 25px;
 }

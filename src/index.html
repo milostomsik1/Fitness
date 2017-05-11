@@ -104,14 +104,14 @@
 				<div class="grid-2-red row">
 					<div class="col-md-8 grid-3-red-img"></div>
 					<div class="col-md-4 grid-4-red-img hidden-sm-down"></div>
-					
+
 					<div class="col-md-8 bg-white grid-text-default">
 						<h3 class="text-uppercase"><span class="small-red-text">Track your<br></span>get involved in yourself</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud. ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillumdolore eu fugiat nulla pariatur.</p>
 					</div>
 					<div class="col-md-4 grid-4-red-img hidden-md-up"></div>
-					<div class="col-md-4 bg-green grid-text-inverse">
-						<h3 class="text-uppercase"><span class="font-17px">Improve your<br></span>eating habits</h3>
+					<div class="col-md-4 bg-green grid-text-inverse eating-habits">
+						<h3 class="text-uppercase"><span>Improve your<br></span>eating habits</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
 					</div>
 				</div>
@@ -122,8 +122,10 @@
 	<footer class="container-fluid">
 		<div class="row">
 			<div class="footer-img col-12">
-				<h2>We launch leaders with big ideas</h2>
-				<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+				<div class="footer-text text-center">
+					<h2>We launch leaders with big ideas</h2>
+					<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -137,17 +139,28 @@
 			</div>
 			<div class="col-sm-4">
 				<h4>Stay in touch</h4>
-				<img src="" alt="facebook">
-				<img src="" alt="twitter">
-				<img src="" alt="youtube">
-				<img src="" alt="linkedin">
+				<div class="social-icons">
+					<a href="#"><img src="./img/facebook.png" alt="facebook"></a>
+					<a href="#"><img src="./img/twitter.png" alt="twitter"></a>
+					<a href="#"><img src="./img/youtube.png" alt="youtube"></a>
+					<a href="#"><img src="./img/linkedin.png" alt="linkedin"></a>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-12 d-flex justify-content-end">
-				<input type="text" placeholder="Your Name">
-				<input type="email" placeholder="Your Email">
-				<button type="submit" name="">Join Newsletter <span>ICON HERE</span></button>
+		<div class="newsletter row">
+			<div class="col-12 hidden-md-up bonus-margin">
+				<form class="form-group">
+					<input class="form-control" type="text" placeholder="Your Name">
+					<input class="form-control" type="email" placeholder="Your Email">
+					<button class="btn btn-primary btn-block" type="submit" name="">Join Newsletter <img src="./img/join-newsletter.png" alt="join newsletter"></button>
+				</form>
+			</div>
+			<div class="col-12 hidden-sm-down d-flex justify-content-end">
+				<form class="form-inline">
+					<input class="form-control" type="text" placeholder="Your Name">
+					<input class="form-control" type="email" placeholder="Your Email">
+					<button class="btn btn-primary" type="submit" name="">Join Newsletter <img src="./img/join-newsletter.png" alt="join newsletter"></button>
+				</form>
 			</div>
 		</div>
 	</footer>
