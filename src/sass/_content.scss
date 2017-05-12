@@ -35,6 +35,18 @@ section {
 	}
 }
 
+.col-md-4.bg-white.grid-text-default,  .col-md-8.bg-white.grid-text-default, .col-md-4.bg-green.grid-text-inverse.eating-habits {
+	h3 {
+		position: relative;
+		z-index: 1;
+		img {
+			position: absolute;
+			z-index: -1;
+			right: -10px;
+			top: 15px;
+		}
+	}
+}
 
 .green-content, .red-content {
 	font-family: "Open Sans";
