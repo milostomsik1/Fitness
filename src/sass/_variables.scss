@@ -1,4 +1,4 @@
-//user vars
+//USER VARS
 $green: rgb(162, 202, 40);
 $transparent-green: rgba(162, 202, 40, 0.8);
 $red: rgb(253, 99, 78);
@@ -9,12 +9,13 @@ $steel-blue: #8297a7;
 $body-bg: #2e3b4e;
 $body-text: #656e74;
 
-// bootstrap override
-// $font-family-sans-serif:
-// $font-family-serif:
+//FONTS
+$avenir-demi: "font130294";
+$avenir-regular: "font123443";
+
+//BOOTSTRAP OVERRIDE
 $brand-primary: $green;
 $headings-color: $white;
 $link-color: $white;
 
-$avenir-demi: "font130294";
-$avenir-regular: "font123443";
+
